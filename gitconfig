@@ -1,0 +1,12 @@
+branch.autosetuprebase=always
+rerere.enabled=true
+alias.st=status
+alias.lo=log --oneline
+alias.co=checkout
+core.editor=nano
+merge.tool=smerge
+diff.tool=smerge
+difftool.prompt=false
+mergetool.prompt=false
+mergetool.keepbackup=false
+difftool.smerge.cmd=smerge "$BASE" "$LOCAL" "$REMOTE"
