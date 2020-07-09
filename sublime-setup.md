@@ -81,3 +81,6 @@
 - SublimeLinter-eslint
 - TypeScript
 - 
+
+## Find filter blob
+`-*/node_modules/*,-yarn.lock,-yarn-error.log,-*/flow-typed*,-*/*.map,-*/.cache/*,-*/.parcel-cache/*`
