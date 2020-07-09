@@ -61,6 +61,7 @@
     "use_npm_flow": true
   }
   ```
+- GitGutter
 - ImportHelper
 - JsPrettier
   ```
@@ -73,12 +74,10 @@
     ]
   }
   ```
-- MarkdownEditing
 - MarkdownPreview
 - Oceanic Next Color Scheme
 - Pretty JSON
 - Sublime Linter
 - SublimeLinter-eslint
-- Syntax Highlighting for Sass
 - TypeScript
 - 
