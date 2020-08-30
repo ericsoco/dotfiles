@@ -22,10 +22,6 @@ export NVM_DIR="$HOME/.nvm"
 export MAPBOX_ACCESS_TOKEN=<mapbox-token-here>
 export MapboxAccessToken=<mapbox-token-here>
 
-# git auto-complete
-source ~/.git-completion.bash
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
 export YVM_DIR=/Users/ericsoco/.yvm
 [ -r $YVM_DIR/yvm.sh ] && source $YVM_DIR/yvm.sh
 [ -r /Users/ericsoco/.profile_lda ] && . /Users/ericsoco/.profile_lda
