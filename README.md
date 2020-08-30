@@ -6,5 +6,5 @@
 4. [Install Homebrew](https://brew.sh/)
 5. Install `subl` CLI: `ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl`
 6. Use this filter for Sublime Find All: `-*/node_modules/*,-yarn.lock,-yarn-error.log,-*/flow-typed*,-*/*.map,-*/.cache/*,-*/.parcel-cache/*`
-7. Copy [git config](https://raw.githubusercontent.com/ericsoco/dotfiles/master/gitconfig) via `git config --global --edit`
+7. Copy [git config](https://raw.githubusercontent.com/ericsoco/dotfiles/master/gitconfig) by editing `~/.gitconfig` or via `git config --global --edit`
 8. [Download Sublime](https://www.sublimetext.com/3) and set up per [sublime-setup.md](./sublime-setup.md)
