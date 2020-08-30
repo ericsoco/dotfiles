@@ -1,3 +1,10 @@
+# TODO: update for zsh
+Temp / WIP:
+- move contents of `.bashrc` into `.profile` (sourced by all POSIX shells, including zsh)
+- replace contents of `.bashrc` with `source ~/.profile`
+- [manually set up git completion for zsh](https://medium.com/@oliverspryn/adding-git-completion-to-zsh-60f3b0e7ffbc) (unless there's a simpler way...)
+
+
 # Setting up a new compy
 
 1. Copy [`bashrc`](https://raw.githubusercontent.com/ericsoco/dotfiles/master/bashrc.bashrc) to `~/.bashrc`
