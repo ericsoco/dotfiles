@@ -29,8 +29,8 @@ source ~/.git-completion.bash
 # git merge utils
 alias git-co-ours="git diff --name-only --diff-filter=U | xargs git checkout --ours"
 alias git-co-theirs="git diff --name-only --diff-filter=U | xargs git checkout --theirs"
-export YVM_DIR=/Users/ericsoco/.yvm
 
 # YVM: Yarn version mananger
+export YVM_DIR=/Users/ericsoco/.yvm
 [ -r $YVM_DIR/yvm.sh ] && source $YVM_DIR/yvm.sh
 [ -r /Users/ericsoco/.profile_lda ] && . /Users/ericsoco/.profile_lda
