@@ -22,6 +22,15 @@ export NVM_DIR="$HOME/.nvm"
 export MAPBOX_ACCESS_TOKEN=<mapbox-token-here>
 export MapboxAccessToken=<mapbox-token-here>
 
+# git auto-complete
+source ~/.git-completion.bash
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# git merge utils
+alias git-co-ours="git diff --name-only --diff-filter=U | xargs git checkout --ours"
+alias git-co-theirs="git diff --name-only --diff-filter=U | xargs git checkout --theirs"
 export YVM_DIR=/Users/ericsoco/.yvm
+
+# YVM: Yarn version mananger
 [ -r $YVM_DIR/yvm.sh ] && source $YVM_DIR/yvm.sh
 [ -r /Users/ericsoco/.profile_lda ] && . /Users/ericsoco/.profile_lda
